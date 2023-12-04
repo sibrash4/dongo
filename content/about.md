@@ -1,13 +1,20 @@
 ## About Me
 
-Hello! I'm [Your Name], a dedicated [Your Profession/Role] with a passion for [industry or field]. Outside of my professional life, I'm an avid [hobby or interest enthusiast].
+Hello! My name is Shaukat Ibrahim, a dedicated Investment Banking Analyst Intern with a passion for finance and banking. Outside of my professional life, I'm an enthusiastic networker and mentor. I'm also a huge fan of the outdoors, and love to hike and camp.
 
-In my career, I started at [first significant role or company], where I honed my skills in [key skill or experience]. Recently, I've been engaged in [current project or work], enhancing my expertise in [specific aspect of your work]. I firmly believe in [your professional philosophy], which has been a guiding force in my approach to [aspect of your work].
+Looking forward, I am eager to progress in the field of investment banking, specifically aiming for roles in restructuring or M&A advisory.
 
-Looking ahead, I aspire to [future goals or aspirations].
+A personal passion of mine is fostering the growth of companies. I am excited about the prospect of eventually starting my own business.
+
+### Education
+
+Currently, I am a student at Furman University, where I am working towards a Bachelor of Science in Philosophy and Information Technology, with a concentration in Finance.
 
 ## Contact
 
-I'm always open to new opportunities and collaborations. You can reach me at [Email Address], or connect with me on [LinkedIn/Twitter/etc.] at [handle or link].
+I'm always open to new opportunities and collaborations. You can reach me at [hello@sibrahim.co](mailto:hello@sibrahim.co), or connect with me on [LinkedIn](https://linkedin.com/in/shaukatibrahim).
 
-Whether for professional inquiries or just a friendly chat, I'm all ears and would love to hear from you!
+Whether it's for a friendly chat or professional networking, I'm all ears and would love to hear from you! Feel free to book me through my link below.
+
+## Book Me
+[Book Me](https://cal.com/shaukat)
