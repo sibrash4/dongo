@@ -3,22 +3,22 @@ languageName = "English"
 languageDirection = "ltr"
 weight = 1
 
-title = "Congo"
-# copyright = "Copy, _right?_ :thinking_face:"
+title = "Shaukat Ibrahim"
+#copyright = "Copy, _right?_ :thinking_face:"
 
 [params]
   dateFormat = "2 January 2006"
 
   # mainSections = ["section1", "section2"]
-  # description = "My awesome website"
+   description = "My awesome website"
 
 [params.author]
-  # name = "Your name here"
+   name = "Shaukat Ibrahim"
   # image = "img/author.jpg"
-  # headline = "I'm only human"
-  # bio = "A little bit about you"
-  # links = [
-  #   { email = "mailto:hello@your_domain.com" },
+   headline = "I'm only human"
+   bio = "i am a procrastinator, therfore will be a while before i get something here but enjoy the site"
+   links = [
+      { email = "mailto:hello@sibrahim.co" },
   #   { link = "https://link-to-some-website.com/" },
   #   { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },
   #   { apple = "https://www.apple.com" },
@@ -27,18 +27,18 @@ title = "Congo"
   #   { dev = "https://dev.to/username" },
   #   { discord = "https://discord.gg/invitecode" },
   #   { dribbble = "https://dribbble.com/username" },
-  #   { facebook = "https://facebook.com/username" },
+      { facebook = "https://facebook.com/ShaukatIbra" },
   #   { flickr = "https://www.flickr.com/photos/username/" },
   #   { foursquare = "https://foursquare.com/username" },
-  #   { github = "https://github.com/username" },
+      { github = "https://github.com/sibrash4" },
   #   { gitlab = "https://gitlab.com/username" },
   #   { google = "https://www.google.com/" },
   #   { hashnode = "https://username.hashnode.dev" },
-  #   { instagram = "https://instagram.com/username" },
+      { instagram = "https://instagram.com/shaukat.ibrahim" },
   #   { keybase = "https://keybase.io/username" },
   #   { kickstarter = "https://www.kickstarter.com/profile/username" },
   #   { lastfm = "https://lastfm.com/user/username" },
-  #   { linkedin = "https://linkedin.com/in/username" },
+      { linkedin = "https://linkedin.com/in/shaukatibrahim" },
   #   { mastodon = "https://mastodon.instance/@username" },
   #   { medium = "https://medium.com/username" },
   #   { microsoft = "https://www.microsoft.com/" },
@@ -59,4 +59,5 @@ title = "Congo"
   #   { whatsapp = "https://wa.me/phone-number" },
   #   { x-twitter = "https://twitter.com/username" },
   #   { youtube = "https://youtube.com/username" },
-  # ]
+      { cal = "https://cal.com/sibrahim" },
+   ]

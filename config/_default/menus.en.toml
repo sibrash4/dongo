@@ -11,37 +11,41 @@
 # ordered by weight from lowest to highest.
 
 [[main]]
-  name = "Blog"
+  name = "blog"
   pageRef = "posts"
   weight = 10
 
 [[main]]
-  name = "Categories"
-  pageRef = "categories"
+  name = "projects"
+  pageRef = "Projects"
   weight = 20
 
 [[main]]
-  name = "Tags"
-  pageRef = "tags"
+  name = "about me"
+  pageRef = "about"
   weight = 30
 
-[[main]]
-  identifier = "search"
-  weight = 99
-  [main.params]
-    action = "search"
+ [[footer]]
+   name = "Let's chat?"
+   url = "https://cal.com/sibrahim/30min"
+   weight = 40
 
-[[main]]
-  identifier = "locale"
-  weight = 100
-  [main.params]
-    action = "locale"
+#[[main]]
+ # identifier = "locale"
+  #weight = 100
+  #[main.params]
+   # action = "locale"
+    
 
 # -- Footer Menu --
 # The footer menu is displayed at the bottom of the page, just before
 # the copyright notice. Configure as per the main menu above.
 
+
+
+
 # [[footer]]
 #   name = "Tags"
 #   pageRef = "tags"
-#   weight = 10
+#   weight = 20
+
