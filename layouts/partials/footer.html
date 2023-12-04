@@ -76,6 +76,8 @@
       </ul>
     </nav>
   {{ end }}
+  
+
   <div class="flex items-center justify-between">
     <div>
       {{/* Copyright */}}
@@ -101,6 +103,8 @@
         </p>
       {{ end }}
     </div>
+  
+
     <div class="flex flex-row items-center">
       {{/* Locale switcher */}}
       {{ if and (.IsTranslated) (eq ($.Scratch.Get "localeCount") 0) }}
@@ -120,7 +124,8 @@
               class="flex items-center justify-center w-12 h-12 dark:hidden"
               title="{{ i18n "footer.dark_appearance" }}"
             >
-              {{ partial "icon.html" "moon" }}
+              
+            {{ partial "icon.html" "moon" }}
             </div>
             <div
               class="items-center justify-center hidden w-12 h-12 dark:flex"
@@ -133,6 +138,8 @@
       {{ end }}
     </div>
   </div>
+
+
   {{/* Extend footer - eg. for extra scripts, etc. */}}
   {{ if templates.Exists "partials/extend-footer.html" }}
     {{ partial "extend-footer.html" . }}
