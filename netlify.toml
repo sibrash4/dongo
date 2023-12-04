@@ -1,12 +1,12 @@
 [build]
   command = "cd exampleSite && hugo --gc --minify -D -b $URL"
-  publish = "exampleSite/public"
+  publish = "public_site"
 
 [build.environment]
 HUGO_VERSION = "0.119.0"
 HUGO_THEMESDIR = "../.."
 HUGO_THEME = "repo"
-TZ = "Australia/Melbourne"
+TZ = "New York/USA"
 
 [context.production.environment]
 HUGO_ENV = "production"
