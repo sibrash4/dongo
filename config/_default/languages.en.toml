@@ -7,14 +7,13 @@ title = "Shaukat Ibrahim"
 #copyright = "Copy, _right?_ :thinking_face:"
 
 [params]
-  dateFormat = "2 January 2006"
-
-  # mainSections = ["section1", "section2"]
-   description = "My awesome website"
+    dateFormat = "2 January 2006"
+    mainSections = ["section1", "section2"]
+    description = "My awesome website"
 
 [params.author]
    name = "Shaukat Ibrahim"
-   image = "images/avatar.jpeg"
+   image = "assets/img/avatar.jpeg"
    headline = "I'm only human"
    bio = "i am a procrastinator, therfore will be a while before i get something here but enjoy the site"
    links = [
