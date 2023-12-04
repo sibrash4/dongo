@@ -12,7 +12,7 @@
 
 [[main]]
   name = "blog"
-  pageRef = "posts"
+  pageRef = "blog"
   weight = 10
 
 [[main]]
@@ -25,13 +25,8 @@
   pageRef = "about"
   weight = 30
 
- [[footer]]
-   name = "Let's chat?"
-   url = "https://cal.com/sibrahim/30min"
-   weight = 40
-
 #[[main]]
- # identifier = "locale"
+  #identifier = "locale"
   #weight = 100
   #[main.params]
    # action = "locale"
