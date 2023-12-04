@@ -1,4 +1,14 @@
-## About Me
+---
+title: "About Me"
+description: "Read what's on my mind right now."
+layout: "aboutme"
+cascade:
+  showEdit: false
+  showSummary: false
+---
+
+
+![Author](avatar.jpeg "Shaukat Ibrahim")
 
 Hello! My name is Shaukat Ibrahim, a dedicated Investment Banking Analyst Intern with a passion for finance and banking. Outside of my professional life, I'm an enthusiastic networker and mentor. I'm also a huge fan of the outdoors, and love to hike and camp.
 
@@ -8,7 +18,7 @@ A personal passion of mine is fostering the growth of companies. I am excited ab
 
 ### Education
 
-Currently, I am a student at Furman University, where I am working towards a Bachelor of Science in Philosophy and Information Technology, with a concentration in Finance.
+Currently, I am a student at [Furman University](https://www.furman.edu/), where I am working towards a Bachelor of Science in Philosophy and Information Technology, with a concentration in Finance.
 
 ## Contact
 

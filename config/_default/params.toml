@@ -18,9 +18,9 @@ enableImageWebp = true
 fingerprintAlgorithm = "sha256"
 
 [header]
-  layout = "basic" # valid options: basic, hamburger, hybrid, custom
-  # logo = "img/logo.jpg"
-  # logoDark = "img/dark-logo.jpg"
+  layout = "hybrid" # valid options: basic, hamburger, hybrid, custom
+  logo = "images/lightlogo.png"
+  logoDark = "images/logodark.png"
   showTitle = true
 
 [footer]
@@ -57,7 +57,7 @@ fingerprintAlgorithm = "sha256"
   showBreadcrumbs = true
   showSummary = true
   showTableOfContents = true
-  showTaxonomies = false
+  showTaxonomies = true
   groupByYear = true
   paginationWidth = 1
 
