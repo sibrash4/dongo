@@ -1,6 +1,6 @@
 ---
 title: "Archive"
-layout: "archives"
+layout: "archive"
 page: "archives"
 summary: "archives"
 ---

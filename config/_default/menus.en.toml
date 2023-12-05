@@ -39,8 +39,19 @@
 
 
 
- [[footer]]
-   name = "archive"
-   pageRef = "archive"
-   weight = 20
+# [[footer]]
+#   name = "archive"
+#   pageRef = "archive"
+#   weight = 20
 
+
+   [[footer]]
+   name = "website ack"
+   pageRef = "website"
+   weight = 30
+
+
+[[footer]]
+   name = "home"
+   url = "profile"
+   weight = 40

@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="{{ .Site.Language.Lang }}">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="Description" content="{{ .Description | default .Site.Params.description }}">
+    <title>{{ .Title }} — {{ .Site.Title }}</title>
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:creator" content="{{ .Site.Params.twitterHandle }}" />
+    <meta name="twitter:title" content="{{ .Title }} — {{ .Site.Title }}" />
+    <meta name="twitter:description" content="{{ .Description | default .Site.Params.description }}" />
+    <meta name="twitter:image" content="{{ .Site.BaseURL }}/assets/images/social-banner.png">
+
+    <meta property="og:url" content="{{ .Permalink }}" />
+    <meta property="og:site_name" content="{{ .Site.Title }}" />
+    <meta property="og:image" content="{{ .Site.BaseURL }}/assets/images/social-banner.png" />
+
+    <link rel="icon" type="image/png" href="{{ .Site.BaseURL }}/assets/images/favicon.png">
+
+    <!-- Additional Styles -->
+    {{ with .Site.Params.customCSS }}
+    <style type="text/css">
+      {{ . }}
+    </style>
+    {{ end }}
+
+    <!-- jQuery Script -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+
+    <!-- Atom Feed -->
+    <link type="application/atom+xml" rel="alternate" href="{{ .Site.BaseURL }}/feed.xml" title="{{ .Site.Title }}" />
+  </head>
+
+  <body id="about">
+    <div class="content-container">
+      <div class="content">
+        <div class="page-info">
+          <h1 class="page-title">{{ .Title }}</h1>
+          <h2 class="page-subtitle">{{ .Params.subtitle }}</h2>
+        </div>
+
+        {{ .Content }}
+
+      </div>
+    </div>
+
+    <footer>
+      {{ partial "footer.html" . }}
+    </footer>
+
+    <!-- Additional Scripts -->
+    <script src="{{ .Site.BaseURL }}/assets/js/filter.js"></script>
+    <script src="{{ .Site.BaseURL }}/assets/js/jquery.min.js"></script>
+    <script src="{{ .Site.BaseURL }}/assets/js/fit.js"></script>
+    <script src="{{ .Site.BaseURL }}/assets/js/fit-vid.js"></script>
+    <script>
+      $(document).ready(function(){
+        $('iframe[src*="youtube"]').parent().fitVids();
+      });
+    </script>
+  </body>
+</html>

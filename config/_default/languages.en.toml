@@ -13,7 +13,7 @@ title = "Shaukat Ibrahim"
 
 [params.author]
    name = "Shaukat Ibrahim"
-   #image = "assets/img/avatar.jpeg"
+   image = "img/author.jpg"
    headline = "I'm only human"
    bio = "i am a procrastinator, therfore will be a while before i get something here but enjoy the site"
    links = [

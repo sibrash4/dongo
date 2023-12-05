@@ -19,7 +19,7 @@ fingerprintAlgorithm = "sha256"
 
 [header]
   layout = "hybrid" # valid options: basic, hamburger, hybrid, custom
-  logo = "assets/logo.png"
+  logo = "assets/logodark.png"
   #logoDark = "/assets/img/Convert to JPG project logo.jpg"
   showTitle = true
 
