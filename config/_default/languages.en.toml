@@ -8,12 +8,12 @@ title = "Shaukat Ibrahim"
 
 [params]
     dateFormat = "2 January 2006"
-    mainSections = ["section1", "section2"]
+    #mainSections = ["section1", "section2"]
     description = "My awesome website"
 
 [params.author]
    name = "Shaukat Ibrahim"
-   image = "assets/img/avatar.jpeg"
+   #image = "assets/img/avatar.jpeg"
    headline = "I'm only human"
    bio = "i am a procrastinator, therfore will be a while before i get something here but enjoy the site"
    links = [
@@ -58,5 +58,5 @@ title = "Shaukat Ibrahim"
   #   { whatsapp = "https://wa.me/phone-number" },
   #   { x-twitter = "https://twitter.com/username" },
   #   { youtube = "https://youtube.com/username" },
-      { cal = "https://cal.com/shaukat" },
+      { coffee = "https://cal.com/shaukat" },
    ]
