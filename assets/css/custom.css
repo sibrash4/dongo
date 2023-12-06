@@ -10,3 +10,42 @@
 html {
   font-size: 13pt;
 }
+
+.svg-background {
+  position: fixed; /* or absolute, depending on your needs */
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1; /* Ensures it stays behind all other content */
+}
+
+.svg-background svg {
+  width: 100%;
+  height: 100%;
+}
+
+.page-content {
+  position: relative;
+  z-index: 1; /* Ensures that content is above the SVG background */
+}
+
+/* Dark Navy to Black (Top section) */
+background-color: #011120;
+
+/* For the wave patterns, you can create a linear gradient */
+/* Dark Purple to Shades of Red/Pink to Deep Magenta */
+background: linear-gradient(180deg, #011120 0%, #e34c67 100%);
+
+
+/* Assuming .dark-mode is the class added to your body or container when dark mode is active */
+.dark-mode .svg-background path {
+  fill: #011120; /* Replace with your dark mode color */
+}
+
+/* Make sure footer text is visible */
+.footer {
+  position: relative; /* or absolute, depending on layout */
+  z-index: 10; /* Higher than SVG z-index */
+  color: #011120; /* Ensure this contrasts with the SVG */
+}
