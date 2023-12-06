@@ -1,49 +1,53 @@
 <link rel="preconnect" href="https://rsms.me/">
 <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
 
+:root {
+  font-family: 'Inter var', sans-serif;
+}
 
-:root { font-family: 'Inter', sans-serif; }
 @supports (font-variation-settings: normal) {
-  :root { font-family: 'Inter var', sans-serif; }
+  :root {
+    font-family: 'Inter var', sans-serif; 
+  }
 }
 
 html {
-  font-size: 13pt;
+  font-size: 13pt;  
 }
 
-..author-name {
+.author-name {
   font-family: 'Inter', sans-serif;
-  font-size: 151px; /* Corrected with unit */
+  font-size: 50px; /* Corrected with unit */
   font-optical-sizing: auto;
-  font-weight: 800; /* Corrected to a valid value */
+  font-weight: 800; /* Corrected to a valid value */  
 }
 
 /* CSS for the Subscription Form Input and Button */
 
-.subscribe-container input[type=email] {
+.subscribe-container input[type="email"] {
   border: 7px solid var(--color-dim); /* Increased border thickness for the email input */
-  border-radius: 7px 0 0 4px;
+  border-radius: 7px 0 0 7px; /* Made border radius uniform */
   width: 90%;
-  padding: 0.5em 0.75em;
+  padding: 0.5em 0.75em;  
   box-sizing: border-box;
-  transition: all .1s ease-in-out;
+  transition: all 0.1s ease-in-out;  
 }
 
-.subscribe-container input[type=email]:hover,
-.subscribe-container input[type=email]:focus {
-  border: 3px solid #8b5cf6; /* Increased border thickness on hover/focus */
+.subscribe-container input[type="email"]:hover,
+.subscribe-container input[type="email"]:focus {
+  border: 3px solid #8b5cf6; /* Increased border thickness on hover/focus */  
 }
 
-.subscribe-container input[type=submit] {
+.subscribe-container input[type="submit"] {
   border: 2px solid #808080; /* Increased border thickness for the submit button */
-  background: #808080 ; /* Button fill color */
-  color: #00202e); /* Text color for the button */
-  border-radius: 0 4px 4px 0;
+  background: #808080; /* Button fill color */
+  color: #00202e; /* Text color for the button */  
+  border-radius: 0 7px 7px 0; /* Made border radius uniform */
   padding: 0.5em 1em;
-  cursor: pointer;
-  transition: all .1s ease-in-out;
+  cursor: pointer; 
+  transition: all 0.1s ease-in-out;   
 }
 
-.subscribe-container input[type=submit]:hover {
-  background: #d4b9db); /* Hover background color for the button */
+.subscribe-container input[type="submit"]:hover {
+  background: #d4b9db; /* Hover background color for the button */
 }

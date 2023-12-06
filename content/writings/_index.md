@@ -4,6 +4,7 @@ description: "Read what's on my mind right now."
 list.groupByYear: true
 showEdit: false
 showSummary: true
+showTableOfContents: true
 
 ---
 

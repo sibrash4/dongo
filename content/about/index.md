@@ -9,6 +9,7 @@ showTableOfContents: false
 showBreadcrumbs: true
 ---
 
+
 Hello! My name is Shaukat Ibrahim, a dedicated Investment Banking Analyst Intern with a passion for finance and banking. Outside of my professional life, I'm an enthusiastic networker and mentor. I'm also a huge fan of the outdoors, and love to hike and camp.
 
 Looking forward, I am eager to progress in the field of investment banking, specifically aiming for roles in restructuring or M&A advisory.
