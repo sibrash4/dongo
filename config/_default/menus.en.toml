@@ -41,9 +41,9 @@
 
 
 # [[footer]]
-#   name = "archive"
-#   pageRef = "archive"
-#   weight = 20
+#    name = "archive"
+#    pageRef = "archive"
+#    weight = 20
 
 
    [[footer]]
@@ -52,7 +52,7 @@
    weight = 30
 
 
-[[footer]]
-   name = "home"
-   url = "profile"
-   weight = 40
+#[[footer]]
+#   name = "home"
+#   url = "profile"
+#   weight = 40

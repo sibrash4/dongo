@@ -1,14 +1,7 @@
 ---
 title: "projects"
 description: "here are some of the projects i have worked on."
-cascade:
-  showEdit: false
-  showSummary: false
+showEdit: false
+showSummary: false
+list.groupByYear: true
 ---
-
-{{< lead >}}
-
-here are some of the projects i have worked on.
-
-{{< /lead >}}
-

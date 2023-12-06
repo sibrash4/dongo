@@ -1,10 +1,9 @@
 ---
 title: "writings"
 description: "Read what's on my mind right now."
-
-cascade:
-  showEdit: false
-  showSummary: true
+list.groupByYear: true
+showEdit: false
+showSummary: true
 ---
 
 {{< lead >}}

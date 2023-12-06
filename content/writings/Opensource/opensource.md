@@ -2,6 +2,7 @@
 title: Open Source Projects
 date: 2023-12-04
 pin: true
+showBreadcrumbs: true
 description: an overvoew of some amazing open source projects i like.
 ---
 # The Power of Open Source Projects

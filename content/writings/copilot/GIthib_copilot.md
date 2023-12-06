@@ -7,6 +7,7 @@ tags: [reflection]
 pin: false
 math: false
 mermaid: true
+showBreadcrumbs: true
 image:
   path: /assets/img/githubcopilot.webp
   #alt: 

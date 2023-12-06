@@ -1,8 +1,12 @@
 ---
 title: "website ack"
-date: 2023-12-04
+date: 2023-12-05
 description: "Behind the site"
 layout: "single"
+showBreadcrumbs: true
+showDateUpdated: true
+showTableOfContents: false
+menu: "ack"
 ---
 ### website
 

@@ -1,6 +1,8 @@
 ---
-title: "Archive"
-layout: "archive"
-page: "archives"
-summary: "archives"
+title: "archive"
+layout: "list"
+summary: "archive"
+groupByYear: true
+showBreadcrumbs: true
+
 ---
