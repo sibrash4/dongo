@@ -25,7 +25,6 @@ I'm always open to new opportunities and collaborations. You can reach me at [he
 
 Whether it's for a friendly chat or professional networking, I'm all ears and would love to hear from you! Feel free to book me through my link below.
 
-## Book Me
 
 {{< cal >}}
 

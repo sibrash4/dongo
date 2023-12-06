@@ -1,29 +1,16 @@
-<form
+<section class="subscribe">
+    <label for="bd-email"><h3>Subscribe</h3></label>
+<p>If you enjoy reading what I have to write, then you might be interested in subscribing to my newsletter. If email is your preferred method of delivery then you can simply fill out the tiny form below. If not, I would encourage you to check out the <a href="/RSS">RSS feeds</a>.</p>
+<div class="subscribe-container">
+  <form
   action="https://buttondown.email/api/emails/embed-subscribe/sibrahim"
-  method="post"
-  target="popupwindow"
-  onsubmit="window.open('https://buttondown.email/sibrahim', 'popupwindow')"
-  class="embeddable-buttondown-form"
-  style="text-align: center; max-width: 400px; margin: auto; font-family: Arial, sans-serif; color: #333;"
->
-  <label for="bd-email" style="display: block; margin-bottom: 10px; font-size: 16px;">
-  </label>
-  <input
-    type="email"
-    name="email"
-    id="bd-email"
-    placeholder="Your email address"
-    style="width: 100%; padding: 15px; margin-bottom: 20px; border: 1px solid #ccc; border-radius: 5px;"
-  />
-  <input
-    type="submit"
-    value="Subscribe"
-    style="width: 100%; padding: 15px; border: none; border-radius: 5px; background-color: #28b427; color: white; cursor: pointer; font-size: 18px; transition: background-color 0.3s ease;"
-    onmouseover="this.style.backgroundColor='#0056b3'"
-    onmouseout="this.style.backgroundColor='#007BFF'"
-  />
-  <p style="margin-top: 20px; font-size: 12px;">
-    <a href="https://buttondown.email/refer/sibrahim" target="_blank" style="color: #28b427; text-decoration: none;">
-      Subscribe for updates on my latest thoughts and work!    </a>
-  </p>
-</form>
+    method="post"
+    target="popupwindow"
+    onsubmit="window.open('https://buttondown.email/sibrahim', 'popupwindow')"
+    class="embeddable-buttondown-form">
+    <input type="email" name="email" id="bd-email" placeholder="Your email address" />
+    <input type="hidden" value="1" name="embed" />
+    <input type="submit" value="&rarr;" alt="Submit" />
+  </form>
+</div>
+  </section>

@@ -7,7 +7,7 @@
 
 colorScheme = "congo"
 defaultAppearance = "dark" # valid options: light or dark
-autoSwitchAppearance = true
+autoSwitchAppearance = false
 
 enableSearch = false
 enableCodeCopy = false
@@ -19,9 +19,12 @@ fingerprintAlgorithm = "sha256"
 
 [header]
   layout = "hybrid" # valid options: basic, hamburger, hybrid, custom
-  logo = "assets/icons/lightlogo.svg"
-  logoDark = "assets/icons/darklogo.svg"
+# logo = "assets/icons/lightlogo.svg"
+# logoDark = "assets/icons/darklogo.svg"
   showTitle = true
+  header.logo = "assets/img/notdarklogogit.jpg"
+  header.logoDark ="assets/img/darklogosvg.jpg"
+  
 
 [footer]
   showCopyright = true
