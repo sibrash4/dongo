@@ -27,6 +27,4 @@ Whether it's for a friendly chat or professional networking, I'm all ears and wo
 
 
 {{< cal >}}
-
-
 {{< subscribeform >}}
