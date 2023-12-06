@@ -1,8 +1,10 @@
 ---
-title: "archive"
-layout: "list"
-summary: "archive"
-groupByYear: true
-showBreadcrumbs: true
+title: "archives"
+description: "See random things you dont want to know"
+
+cascade:
+  showEdit: false
+  showSummary: true
+
 
 ---

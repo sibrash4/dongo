@@ -6,13 +6,14 @@ layout: “page”
 showBreadcrumbs: true
 showDateUpdated: true
 showTableOfContents: false
+showEdit: true
 menu: "ack"
 ---
 
 ### colophon
-
+{{< lead >}}
 *noun* | *col·​o·​phon*
-
+{{< /lead >}}
 **definition:**  
 _a colophon: a snippet of history, traditionally nestled at a book's end. it shares the tale of its creation – the paper, printing method, typeface, and the names behind the scenes. more than facts, it's a narrative of craft and context, a whisper from the past._
 
