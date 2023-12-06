@@ -19,11 +19,11 @@ fingerprintAlgorithm = "sha256"
 
 [header]
   layout = "hybrid" # valid options: basic, hamburger, hybrid, custom
-# logo = "assets/icons/lightlogo.svg"
-# logoDark = "assets/icons/darklogo.svg"
+  logo = "assets/img/notdarklogogit.jpg"
+  logoDark = "assets/img/darklogosvg.jpg"
   showTitle = true
-  header.logo = "assets/img/notdarklogogit.jpg"
-  header.logoDark ="assets/img/darklogosvg.jpg"
+#  header.logo = "assets/img/notdarklogogit.jpg"
+#  header.logoDark ="assets/img/darklogosvg.jpg"
   
 
 [footer]

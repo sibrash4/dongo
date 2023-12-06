@@ -51,3 +51,21 @@ html {
 .subscribe-container input[type="submit"]:hover {
   background: #d4b9db; /* Hover background color for the button */
 }
+
+/* Base styles for logos */
+.logo-img {
+  width: 100px; /* Adjust the width as needed */
+  height: auto; /* Keeps the aspect ratio of the image */
+}
+
+/* Light mode logo - hidden in dark mode */
+.light-logo {
+  display: none; /* Hide by default */
+}
+
+/* Dark mode logo - shown by default */
+.dark-logo {
+  display: block;
+}
+
+/* Specific classes for theme visibility */

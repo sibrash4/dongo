@@ -1,6 +1,8 @@
 ---
 title: "writings"
 description: "Read what's on my mind right now."
+
+type: list
 list.groupByYear: true
 showEdit: false
 showSummary: true

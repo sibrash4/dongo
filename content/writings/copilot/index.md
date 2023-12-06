@@ -1,19 +1,21 @@
 ---
 title: Reflection --GitHub Copilot AI pair programmer -Asset or Liability?
-author: shaukat
+author: Shaukat Ibrahim
 date: 2023-11-02 00:12:00 +0800
 categories: [assignment]
 tags: [reflection]
 pin: false
 math: false
 mermaid: true
+summary: "The research paper explored the influence of emerging generative tools, especially GitHub Copilot, and assessed their efficiency relative to coding performed by humans. I find this an enthralling area of study."
 showBreadcrumbs: true
-image:
-  path: /assets/img/githubcopilot.webp
-  #alt: 
+
+  
 ---
 
+
 ## Discussion
+
 
 The research paper explored the influence of emerging generative tools, especially GitHub Copilot, and assessed their efficiency relative to coding performed by humans. I find this an enthralling area of study. The rapid advancements in the generative landscape have raised concerns about these tools potentially replacing humans in coding, development, and even supportive roles. This study delved into evaluating the truth of such apprehensions.
 
@@ -33,6 +35,8 @@ Reflecting on our last classroom discussions: "No one writes new code; we only r
 
 Utilizing generative tools in the right manner offers unparalleled advantages. It accelerates the learning trajectory, empowering individuals to venture into unexplored territories and pose challenging questions. Nevertheless, overdependence can erode our innate abilities to innovate and reason. The essence of human value resides in our capacity to ideate and manifest. Delegating this innate creativity dilutes our significance. However, this shouldn't deter us from embracing powerful tools that amplify our potential and foster simultaneous learning.
 
+### conclusion
+
 A sobering realization is our replaceability. Advanced models will invariably surge in precision as increased expertise is channeled into training and iterative enhancement. Consider Stack Overflow's endeavor to distill its expansive knowledge base into a singular chatbot. Similarly, the longstanding finance forum that I frequent, Wall Street Oasis, has unleashed an AI bot proficient in contextual replies by harnessing the cumulative insights of its 50-year-old forum posts and replies. This metamorphosis underscores the tremendous utility of tools like Copilot for adept professionals. These tools also serve as catalysts for accelerated learning and sustained relevance. The inexorable progression of time sees the quantum of tasks swelling, mirroring the phenomenon where work tends to expand to fill the available time. This dynamic landscape favors the inquisitive, urging them to fathom the underlying "whys." Those indifferent to this evolution risk obsolescence. In my perspective, this scenario epitomizes the age-old principle of survival, albeit reframed in a modern context: survival of the most adaptable and inquisitive.
 
 These reflections pivot to a critical inference: while AI might not supplant humans, the onus is on us to perpetually refine and expand our horizons. The crux should center around relentless knowledge acquisition, skill enhancement, and evolution. If stagnation ensues, the overarching objective becomes nebulous. Furthermore, an ethical dimension emerges. A predominant apprehension among developers is the perception of AI-generated code as derivative or plagiarized. Yet, discerning the distinction between AI output and a developer gleaning code fragments from online repositories becomes blurry. Both entities essentially mimic a similar pattern. Many developers, myself included, initiate their coding journey by dissecting existing code, occasionally via unauthorized avenues. This hands-on exploration has enriched my understanding. A custom feature I've integrated prompts ChatGPT to generate five follow-up questions post every output(included below for this essay). These questions not only encourage deeper contemplation but also stimulate the exploration of new perspectives and tangents. Tools, regardless of their sophistication, derive their effectiveness from the adeptness of the user. Deploying them without understanding their functionality or the related domain dilutes their utility and over-reliance dilutes human ingenuity
@@ -41,7 +45,7 @@ These reflections pivot to a critical inference: while AI might not supplant hum
 ---
 
 
-## The different combinatuon of follow up questions I got as I edited the different paragraphs of the above reflection for grammar, spellings and punctuation
+## The different combination of follow up questions I got as I edited the different paragraphs of the above reflection for grammar, spellings and punctuation
 
 - Q1: How might AI tools be improved to encourage collaboration without risking over-reliance?
   Q2: Do you foresee a point where AI-generated code might be universally accepted without concerns of plagiarism?  
@@ -95,3 +99,5 @@ These reflections pivot to a critical inference: while AI might not supplant hum
 - Q3: Could the introduction of AI in coding lead to new specialized roles in the tech industry, such as AI code reviewers or AI-enhanced software architects?
 - Q4: As generative AI tools evolve, how might the tech industry's hiring criteria shift in terms of assessing a coder's proficiency?
 - Q5: Beyond coding, in what other professional fields do you foresee AI tools making significant inroads in the coming years?
+
+[1]:	https://github.blog/wp-content/uploads/2023/02/GitHub-Copilot-for-Business.png?resize=1600%2C850
