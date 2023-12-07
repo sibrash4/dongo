@@ -79,7 +79,7 @@ fingerprintAlgorithm = "sha256"
   # script = ""
 
 [verification]
-  # google = ""
+   google = "G-KT27YM1D34"
   # bing = ""
   # pinterest = ""
   # yandex = ""
