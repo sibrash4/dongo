@@ -1,11 +1,13 @@
 ---
 title: "projects"
 description: "here are some of the projects i have worked on."
-cascade:
-  showEdit: false
-  updateDate: true
-  showSummary: true
-  list.groupByYear: true
+
+type: list
+list.groupByYear: true
+showEdit: false
+showSummary: true
+showTableOfContents: true
+
 
 ---
 
@@ -15,3 +17,6 @@ Here are some random awkful stuff that i managed to get them work
 
 {{< /lead >}}
 
+![][image-1]
+
+[image-1]:	cover.png

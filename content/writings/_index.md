@@ -18,4 +18,4 @@ this website helps me bring whats on my  mind to life. i hope you enjoy reading 
 
 {{< /lead >}}
 
-[image-1]:	cover.jpg
+[image-1]:	cover.png

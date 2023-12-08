@@ -13,13 +13,18 @@ menu: "ack"
 ### colophon
 {{< lead >}}
 *noun* | *col·​o·​phon*
-{{< /lead >}}
+
 **definition:**  
 _a colophon: a snippet of history, traditionally nestled at a book's end. it shares the tale of its creation – the paper, printing method, typeface, and the names behind the scenes. more than facts, it's a narrative of craft and context, a whisper from the past._
 
 **example in use:**  
 > "in the handscroll's colophon, each owner and visitor added their voice, enriching its story."  
 > —Wired, 19 Sep. 2023
+{{< /lead >}}
+
+
+
+
 
 **the essence behind my website**
 

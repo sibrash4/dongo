@@ -45,6 +45,8 @@ Now, let's take a look at some cool open source projects that have caught my att
 14. Respell.ai is a no-code platform to build AI workflows, automations, and agents. You can use AI to accelerate your daily work in a few different ways such as:
 15. Tjis project aims to grapple worth a problem we all have come too familiar with which is too many [papers][11].
 16. Another way we will be doin this will using [strap][12] as the backend 
+17. Here is a great file [storage][13] service 
+18. And ray.so to take [pictures][14]  of my code
 
 These are just a few examples of the amazing open source projects out there. By exploring and contributing to these projects, you can not only enhance your skills but also make a positive impact on the software development community.
 
@@ -62,3 +64,5 @@ So, let's embrace the power of open source projects and start exploring the endl
 [10]:	https://www.maxai.me/prompts?category=All&use_case=All&keyword=
 [11]:	paperless-ngx
 [12]:	https://docs.strapi.io/dev-docs/quick-start
+[13]:	https://drive.internxt.com/preferences?tab=plans
+[14]:	https://ray.so/#code=aW1wb3J0IFN3aWZ0VUkKCnN0cnVjdCBDaXJjbGVJbWFnZTogVmlldyB7CiAgdmFyIGJvZHk6IHNvbWUgVmlldyB7CiAgICBJbWFnZSgidHVydGxlcm9jayIpCiAgICAgIC5jbGlwU2hhcGUoQ2lyY2xlKCkpCiAgfQp9
