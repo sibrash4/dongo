@@ -5,13 +5,13 @@ summary: "This is my senior project based on RAG and generative AI."
 showBreadcrumbs: true
 showReadingTime: true
 ---
-{{% alert note %}}
+{{< lead >}}
 
 This is my senior project based on RAG and generative AI.
 
 Learn more about it [here](https://furman.sibrahim.io)
 
-{{% /alert %}}
+{{% /lead %}}
 
 ## **Enhancing Financial Analysis Through Generative AI: A Deep Dive into Evolving Data Frameworks**
 
