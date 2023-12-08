@@ -1,27 +1,61 @@
 ---
-
 title: "Enhancing Financial Analysis Through Generative AI and Evolving Data Frameworks"
 date: 2023-12-04
 summary: "This is my senior project based on RAG and generative AI."
 showBreadcrumbs: true
 showReadingTime: true
+---
+{{% alert note %}}
+
+This is my senior project based on RAG and generative AI.
+
+Learn more about it [here](https://furman.sibrahim.io)
+
+{{% /alert %}}
+
+## **Enhancing Financial Analysis Through Generative AI: A Deep Dive into Evolving Data Frameworks**
+
+### **Introduction**
+
+In the rapidly evolving world of finance, the advent of advanced AI models such as ChatGPT, Claude, and LLaMA has marked a transformative era, especially in the banking sector. This blog post, based on our detailed research paper, delves into the significant impact of generative AI in augmenting productivity in financial analysis. Drawing from a McKinsey study, we explore the economic implications of AI, focusing on its application in sophisticated financial analysis.
+
+### **Our Model: A Blend of Innovation and Efficiency**
+
+Our project centers around the innovative application of generative AI to process US corporate financial statements, particularly the 10-Q and 10-K forms. Utilizing LangChain and LlamaIndex, two versatile libraries, we've developed a system that not only interfaces effectively with generative AI models but also enhances efficiency and user-friendliness in financial data analysis. Our challenge? Crafting a solution that is both customizable and cost-effective.
+
+### **Research Focus: Advanced Transformer Models**
+
+Our research primarily focuses on advanced transformer models like BERT, GPT, and RoBERTa, integrated within the LangChain library. We've fine-tuned these models for analyzing financial documents, harnessing BERT's bidirectional context understanding, GPT's generative insights, and RoBERTa's robust optimization. This fine-tuning is crucial, given the unique language and structure of financial reports.
+
+### **Data Analysis: Diving into 10-K and 10-Q Forms**
+
+Our paper emphasizes the analysis of primary data sources, particularly contrasting the Form 10-K with the 10-Q report. We delve into their characteristics, such as frequency and geographical scope. The challenge lies in processing the unstructured data in these filings, often laden with complex financial terminology and varying narrative structures.
+
+### **Results and Pipeline: Accuracy and Efficiency in Financial Statements Analysis**
+
+Our results underscore the advancements in analyzing financial statements. The transformer models have shown remarkable accuracy in interpreting complex financial data and producing insightful summaries. They adeptly extract key financial metrics, though they occasionally require manual intervention to refine outputs.
+
+### **Methodological Approach: The Role of Prompt Engineering**
+
+Our approach emphasizes prompt engineering, customizing models to meet the specific needs of financial data analysis. This strategy ensures that AI models offer not just data processing but actionable financial insights. 
+
+### **Conclusion and Future Outlook**
+
+In conclusion, these AI models hold transformative potential in financial analysis, offering enhanced efficiency, accuracy, and depth. Looking ahead, we envision the development of foundational models that balance speed, efficiency, and cost, and the possibility of creating customized AI assistants for specialized applications in finance.
+
+
+{{% alert note %}}
+
+Here`s a link to my [Research Paper](https://gofile.io/d/DArhLT)!
+
+{{% /alert %}}
 
 ---
 
+**Acknowledgments**
 
-### Single-Slide Summary: "Enhancing Financial Analysis Through Generative AI and Evolving Data Frameworks"
-
-**Abstract Overview**: This project endeavors to enhance financial analysis by applying generative AI to process US corporate financial statements, particularly the 10-Q and 10-K forms. The innovative use of LangChain and LlamaIndex, two versatile libraries, aims to interface effectively with generative AI models, enhancing both efficiency and user-friendliness in financial data analysis. A significant challenge is developing a solution that is both customizable and cost-effective, given the constraints of existing AI platforms.
-
-**Introduction Highlights**: The introduction sets the stage by discussing the transformative impact of advanced AI models like ChatGPT, Claude, and LLaMA on knowledge work, particularly in the banking sector. It underscores the potential of generative AI to augment productivity, referencing a McKinsey study on AI's economic implications. The focus is on leveraging generative AI for sophisticated financial analysis, navigating through the challenges and seizing the opportunities this technology presents.
-
-**Data Sources**: The paper emphasizes the analysis of primary data sources, notably the Form 10-K, and contrasts it with the 10-Q report. It elaborates on the characteristics of these reports, such as their source, frequency, sample size, and geographical scope. The challenges associated with processing the unstructured data contained in these filings are also addressed.
-
-**Key Insights and Future Directions**: The paper explores the evaluation and comparison of various Large Language Models (LLMs), discussing their performance and the trade-offs involved in model size and training. It describes the project's methodological approach, emphasizing the significance of prompt engineering in the application and data processing. The paper concludes with insights on the experimentation and results, highlighting the model's capabilities in knowledge retrieval and processing PDF filings. Finally, it outlines future directions, focusing on the development of foundational models that balance speed, efficiency, and cost, and the potential of creating customized AI assistants for personalized applications.
+I would like to express my gratitude to those who have contributed to this research, providing invaluable insights and support throughout the process.
 
 ---
 
-
-[https://github.com/pinecone-io/langchain-retrieval-agent-example][1]
-
-[1]:	https://github.com/pinecone-io/langchain-retrieval-agent-example
+This transformation maintains the key elements of your research while adapting it for a blog post format. If you have any specific aspects you want to highlight or modify, feel free to let me know\=
