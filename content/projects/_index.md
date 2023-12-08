@@ -8,7 +8,6 @@ showEdit: false
 showSummary: true
 showTableOfContents: true
 
-
 ---
 
 
