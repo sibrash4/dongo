@@ -1,6 +1,6 @@
 ---
 title: "Enhancing Financial Analysis Through Generative AI and Evolving Data Frameworks"
-date: 2023-12-04
+date: 2023-12-08
 summary: "This is my senior project based on RAG and generative AI."
 showBreadcrumbs: true
 showReadingTime: true
