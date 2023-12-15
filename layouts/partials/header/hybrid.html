@@ -2,6 +2,7 @@
   <nav class="flex items-start justify-between sm:items-center">
     {{/* Site logo/title */}}
     <div class="z-40 flex flex-row items-center">
+      
       {{ partial "logo.html" . }}
     </div>
     {{ if or .Site.Menus.main (.Site.Params.enableSearch | default false) }}
