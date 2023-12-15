@@ -3,7 +3,7 @@ title: "website ack"
 date: 2023-11-08
 description: “behind the site"
 layout: “page”
-showBreadcrumbs: true
+showBreadcrumbs: false
 showDateUpdated: true
 showTableOfContents: true
 showEdit: false
@@ -25,25 +25,26 @@ _a colophon: a snippet of history, traditionally nestled at a book's end. it sha
 > —Wired, 19 Sep. 2023
 {{< /lead >}}
 
-**the essence behind my website**
+### **the essence behind my website**
 
 **my personal touch in web development**
 this website, my canvas, blends dedication and creativity. built with Hugo, hosted on Netlify, and GitHub Pages as a trusty predecessor. it's a tale of influence and inspiration:
 
 1. the frontend, inspired by the elegant [Congo][1] theme, brings sleek, modern vibes.
 2. the backend, powered by [Hugo][2] and hosted on [Netlify][3], marries performance with reliability.
+2.5. the website uses CDN based off amazon s3 which and cloudfront, which both store and distribute the images for optimization
 3. my coding journey begins and ends in Visual Studio Code, mercifully guided by [Claude][4], [ChatGPT][5] and Copilot, which reflects the synergy of human creativity and AI efficiency.
 4. the project's structure and function draw from many other diverse open-source projects, each adding its unique flavor
 5. The only decent graphs and visuals you might see come from [haikei][6] and icons8 
 
-**fonts and typography**
+### **fonts and typography**
 {{< figure src="https://d11lwvehb4d05u.cloudfront.net/fontface.jpg" >}}
 
 a careful font duo enhances readability and style:
 
 1. **inter** and **inter var**: clean, modern, seamlessly integrated.
 
-**design inspirations**
+### **design inspirations**
 a fusion of AI and artistry shapes the brand design. key inspirations include:
 
 1. **diverse web inspirations:** drawing from various [remarkable websites][7], particularly matthew perry's [site][8], for a creative-functional blend, including the inspiration for this page
@@ -55,16 +56,11 @@ content is crafted in markdown in [Ulysses][11], my go-to note-taking app, perfe
 
 i'm also fond of [logseq][12], another markdown-based app for notetaking and writing, offering a networked thought process.
 
-**continued evolution**
+
+### **continued evolution**
 this website is a living portfolio, evolving with my journey in web development and design. it's a story of growth, creativity, and digital innovation.
 
 stay tuned as this website unravels new chapters of creativity and innovation!
-
-
-
-
-
-
 
 
 [1]:	https://github.com/jpanther/congo
