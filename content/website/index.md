@@ -5,8 +5,8 @@ description: “behind the site"
 layout: “page”
 showBreadcrumbs: true
 showDateUpdated: true
-showTableOfContents: false
-showEdit: true
+showTableOfContents: true
+showEdit: false
 menu: "ack"
 ---
 
