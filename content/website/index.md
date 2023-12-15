@@ -11,6 +11,9 @@ menu: "ack"
 ---
 
 ### colophon
+
+{{< figure src="https://d11lwvehb4d05u.cloudfront.net/pilot.jpeg" >}}
+
 {{< lead >}}
 *noun* | *col·​o·​phon*
 
@@ -21,10 +24,6 @@ _a colophon: a snippet of history, traditionally nestled at a book's end. it sha
 > "in the handscroll's colophon, each owner and visitor added their voice, enriching its story."  
 > —Wired, 19 Sep. 2023
 {{< /lead >}}
-
-{{< figure src="https://d11lwvehb4d05u.cloudfront.net/pilot.jpeg" >}}
-
-
 
 **the essence behind my website**
 
