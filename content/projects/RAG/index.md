@@ -1,17 +1,22 @@
 ---
 title: "Enhancing Financial Analysis Through Generative AI and Evolving Data Frameworks"
 date: 2023-12-08
-summary: "This is my senior project based on RAG and generative AI."
+summary: "This is my senior project based on RAG and generative AI"
 showBreadcrumbs: true
 showReadingTime: true
 ---
-{{< lead >}}
 
+{{< figure src="https://d11lwvehb4d05u.cloudfront.net/cover.jpg" >}}
+
+{{< lead >}}
 This is my senior project based on RAG and generative AI.
 
-Learn more about it [here](https://furman.sibrahim.io)
-
 {{% /lead %}}
+
+{{< lead >}}
+Learn more about it [here](https://furman.sibrahim.io)
+{{% /lead %}}
+
 
 ## **Enhancing Financial Analysis Through Generative AI: A Deep Dive into Evolving Data Frameworks**
 

@@ -22,7 +22,7 @@ _a colophon: a snippet of history, traditionally nestled at a book's end. it sha
 > —Wired, 19 Sep. 2023
 {{< /lead >}}
 
-
+{{< figure src="https://d11lwvehb4d05u.cloudfront.net/pilot.jpeg" >}}
 
 
 
@@ -38,9 +38,7 @@ this website, my canvas, blends dedication and creativity. built with Hugo, host
 5. The only decent graphs and visuals you might see come from [haikei][6] and icons8 
 
 **fonts and typography**
-
-
-![][image-1]
+{{< figure src="https://d11lwvehb4d05u.cloudfront.net/fontface.jpg" >}}
 
 a careful font duo enhances readability and style:
 
@@ -62,6 +60,13 @@ i'm also fond of [logseq][12], another markdown-based app for notetaking and wri
 this website is a living portfolio, evolving with my journey in web development and design. it's a story of growth, creativity, and digital innovation.
 
 stay tuned as this website unravels new chapters of creativity and innovation!
+
+
+
+
+
+
+
 
 [1]:	https://github.com/jpanther/congo
 [2]:	https://gohugo.io/

@@ -10,12 +10,10 @@ showTableOfContents: true
 
 ---
 
-![][image-1]
+{{< figure src="https://d11lwvehb4d05u.cloudfront.net/theexplorer.png" >}}
 
 {{< lead >}}
 
 this website helps me bring whats on my  mind to life. i hope you enjoy reading it as much as i enjoy writing it.
 
 {{< /lead >}}
-
-[image-1]:	cover.png

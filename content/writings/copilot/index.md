@@ -12,6 +12,7 @@ showBreadcrumbs: true
 
   
 ---
+{{< figure src="https://d11lwvehb4d05u.cloudfront.net/aicopilot.webp" >}}
 
 
 ## Discussion
