@@ -1,7 +1,6 @@
 ---
 title: "projects"
 description: "here are some of the projects i have worked on."
-
 type: list
 list.groupByYear: true
 showEdit: false
@@ -13,5 +12,5 @@ showTableOfContents: true
 
 
 {{< lead >}}
-Here are some random awkful stuff that i managed to get them work
+Here are some random awful stuff that I managed to get them to work
 {{< /lead >}}

@@ -10,70 +10,58 @@ showEdit: false
 menu: "ack"
 ---
 
-### colophon
-
+### Colophon
 {{< figure src="https://d11lwvehb4d05u.cloudfront.net/pilot.jpeg" >}}
 
-{{< lead >}}
-*noun* | *col·​o·​phon*
+**noun** | *col·​o·​phon*
 
-**definition:**  
-_a colophon: a snippet of history, traditionally nestled at a book's end. it shares the tale of its creation – the paper, printing method, typeface, and the names behind the scenes. more than facts, it's a narrative of craft and context, a whisper from the past._
+**Definition:**  
+_A colophon is like a secret handshake from history, usually found at the end of a book. It’s a snapshot of its birth story – revealing the paper, printing method, typeface, and the unsung heroes behind its creation. It's more than just facts; it's a story of artistry and context, a hidden message from yesteryear._
 
-**example in use:**  
-> "in the handscroll's colophon, each owner and visitor added their voice, enriching its story."  
-> —Wired, 19 Sep. 2023
-{{< /lead >}}
+**Example in Use:**  
+> "In the handscroll's colophon, each owner and visitor added their own twist, creating a mosaic of memories."  
+—Wired, 19 Sep. 2023
 
-### **the essence behind my website**
+### The Essence Behind My Website
 
-**my personal touch in web development**
-this website, my canvas, blends dedication and creativity. built with Hugo, hosted on Netlify, and GitHub Pages as a trusty predecessor. it's a tale of influence and inspiration:
+**My Personal Touch in Web Development**  
+This website is my digital playground, a blend of passion and creativity. Here's how it all comes together:
 
-1. the frontend, inspired by the elegant [Congo][1] theme, brings sleek, modern vibes.
-2. the backend, powered by [Hugo][2] and hosted on [Netlify][3], marries performance with reliability.
-2.5. the website uses CDN based off amazon s3 which and cloudfront, which both store and distribute the images for optimization
-3. my coding journey begins and ends in Visual Studio Code, mercifully guided by [Claude][4], [ChatGPT][5] and Copilot, which reflects the synergy of human creativity and AI efficiency.
-4. the project's structure and function draw from many other diverse open-source projects, each adding its unique flavor
-5. The only decent graphs and visuals you might see come from [haikei][6] and icons8 
+1. **Front End**: Influenced by the chic [Congo]() theme, it's all about sleek, modern vibes.
+2. **Back End**: Running on [Hugo]() and hosted on [Netlify](), it's a perfect marriage of speed and dependability.
+2.5. **Optimization**: Thanks to CDN using Amazon S3 and Cloudfront, images are stored and delivered at lightning speed.
+3. **Tools of the Trade**: My coding saga unfolds in Visual Studio Code, with [Claude](), [ChatGPT](), and Copilot as my guides, blending human creativity with AI brilliance.
+4. **Open-Source Influence**: The site's DNA is enriched with a variety of open-source projects, each adding their own spice.
+5. **Visual Flair**: The standout graphs and visuals? All thanks to [haikei]() and icons8.
 
-### **fonts and typography**
+### Fonts and Typography
+
 {{< figure src="https://d11lwvehb4d05u.cloudfront.net/fontface.jpg" >}}
 
-a careful font duo enhances readability and style:
 
-1. **inter** and **inter var**: clean, modern, seamlessly integrated.
+A dynamic duo of fonts elevates both readability and style:
 
-### **design inspirations**
-a fusion of AI and artistry shapes the brand design. key inspirations include:
+1. **Inter** and **Inter Var**: Crisp, contemporary, and seamlessly woven into the site’s fabric.
 
-1. **diverse web inspirations:** drawing from various [remarkable websites][7], particularly matthew perry's [site][8], for a creative-functional blend, including the inspiration for this page
-2. **papermod theme influence:** inspired by [papercss][9], it strikes a balance between simplicity and user-friendliness.
+### Design Inspirations
 
-while coding in vs code, [css tailwind][10] has been pivotal, enabling awe-inspiring designs even with zero design skills. a blend of tailwind with html is the secret sauce.
+The brand's look is a dance between AI and art. Here's where the magic happens:
 
-content is crafted in markdown in [Ulysses][11], my go-to note-taking app, perfect for markdown enthusiasts.
+1. **Web Wonders**: Drawing inspiration from a medley of [remarkable websites](), especially Matthew Perry's [site](), for that perfect mix of creativity and function.
+2. **Papermod Influence**: Taking cues from [papercss](), balancing minimalism with user-friendliness.
 
-i'm also fond of [logseq][12], another markdown-based app for notetaking and writing, offering a networked thought process.
+Coding in VS Code, [css tailwind]() is my secret weapon, making stunning designs possible for even the design-challenged. It's all about harmonizing Tailwind with HTML.
+
+For content, I rely on markdown in [Ulysses](), a haven for markdown lovers.
+
+And let's not forget [logseq](), another markdown marvel for note-taking and weaving thoughts together.
+
+### Continued Evolution
+
+This site is more than just a portfolio; it's a living narrative of my journey in web development and design. It's a tale of growth, creativity, and digital exploration.
+
+Stay tuned for more chapters of creativity and innovation as this site continues to evolve!
+
+---
 
 
-### **continued evolution**
-this website is a living portfolio, evolving with my journey in web development and design. it's a story of growth, creativity, and digital innovation.
-
-stay tuned as this website unravels new chapters of creativity and innovation!
-
-
-[1]:	https://github.com/jpanther/congo
-[2]:	https://gohugo.io/
-[3]:	https://www.netlify.com/
-[4]:	https://claude.ai/
-[5]:	https://chat.openai.com/
-[6]:	https://haikei.app/ "haikei.app"
-[7]:	https://dribbble.com/tags/white-color-website
-[8]:	https://matthewsmith.website/
-[9]:	https://github.com/kevinpapst/papercss
-[10]:	https://tailwindcss.com/
-[11]:	https://ulysses.app/
-[12]:	https://logseq.com/
-
-[image-1]:	font.jpg

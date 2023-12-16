@@ -1,10 +1,15 @@
 ---
 title: Open Source Projects
-date: 2023-12-04
-pin: true
+date: 2023-11-08
+description: "an overview of some amazing open source projects i like."
 showBreadcrumbs: true
-description: an overvoew of some amazing open source projects i like.
+showDateUpdated: true
+showTableOfContents: true
+showEdit: false
+
 ---
+
+
 # The Power of Open Source Projects
 
 Open source projects have revolutionized the world of software development. They offer numerous benefits, making them a popular choice for developers and organizations alike.

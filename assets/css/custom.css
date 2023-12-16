@@ -1,13 +1,6 @@
 <link rel="preconnect" href="https://rsms.me/">
 <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
 
-:root {
-  --background-dark: #000405; /* Dark color for the background */
-}
-body {
-  background-color: var(--background-dark);
-}
-
 
 :root {
   font-family: 'Inter var', sans-serif;
@@ -18,7 +11,6 @@ body {
     font-family: 'Inter var', sans-serif; 
   }
 }
-
 
 
 html {
