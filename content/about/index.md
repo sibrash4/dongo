@@ -9,7 +9,7 @@ showTableOfContents: false
 showBreadcrumbs: true
 ---
 
-{{< figure src="https://d11lwvehb4d05u.cloudfront.net/nycpretty.png" title="An elephant at sunset" >}}
+{{< figure src="https://d11lwvehb4d05u.cloudfront.net/Golden hour suspension bridge.jpeg" >}}
 
 ## About Me
 
