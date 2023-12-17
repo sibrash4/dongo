@@ -1,14 +1,12 @@
 ---
 title: Open Source Projects
 date: 2023-11-08
-description: "an overview of some amazing open source projects i like."
 showBreadcrumbs: true
 showDateUpdated: true
 showTableOfContents: true
 showEdit: false
 
 ---
-
 
 # The Power of Open Source Projects
 

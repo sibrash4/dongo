@@ -7,7 +7,6 @@ tags: [reflection]
 pin: false
 math: false
 mermaid: true
-summary: "The research paper explored the influence of emerging generative tools, especially GitHub Copilot, and assessed their efficiency relative to coding performed by humans. I find this an enthralling area of study."
 showBreadcrumbs: true
 
   
