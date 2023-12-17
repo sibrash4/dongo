@@ -4,15 +4,11 @@ author: Shaukat Ibrahim
 date: 2023-11-02 00:12:00 +0800
 categories: [assignment]
 tags: [reflection]
-pin: false
-math: false
-mermaid: true
 showBreadcrumbs: true
-
-  
 ---
-{{< figure src="https://d11lwvehb4d05u.cloudfront.net/aicopilot.webp" >}}
 
+
+{{< figure src="https://d11lwvehb4d05u.cloudfront.net/aicopilot.webp" >}}
 
 ## Discussion
 

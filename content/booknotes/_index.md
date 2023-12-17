@@ -1,16 +1,14 @@
 ---
-title: "writings"
-description: "Read what's on my mind right now."
-
+title: "book notes"
+description: "Read what i think of my some recent reads and whats on my shelf."
 type: list
-list.groupByYear: true
+list.groupByYear: false
 showEdit: false
 showSummary: false
 showTableOfContents: true
-
 ---
 
-{{< figure src="https://d11lwvehb4d05u.cloudfront.net/theexplorer.png" >}}
+{{< figure src="https://d11lwvehb4d05u.cloudfront.net/Mediterranean Seaside Village.jpeg" >}}
 
 {{< lead >}}
 

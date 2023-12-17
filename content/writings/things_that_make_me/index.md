@@ -1,6 +1,4 @@
-
 ---
-
 title: "My First Blog Post"
 date: 2022-01-25
 description: "Welcome to my blog!"
