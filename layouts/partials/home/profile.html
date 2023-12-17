@@ -1,24 +1,35 @@
-<article class="{{ if not .Site.Params.homepage.showRecent }}h-full{{ end }} flex flex-col items-center justify-center text-center">
+<article
+  class="{{ if not .Site.Params.homepage.showRecent }}h-full{{ end }} flex flex-col items-center justify-center text-center">
 
   <header class="mb-5 flex flex-col items-center">
-    <!-- External Image Reference with Styling -->
-    <div class="rounded-full overflow-hidden inline-block border-3 border-gray-300 shadow-lg" style="margin-bottom: 30px;"> <!-- Increased bottom margin -->
 
-      <img src="https://d11lwvehb4d05u.cloudfront.net/author.png" width="258" height="258" title="Author" alt="Author" class="rounded-full">
+    <!-- Wrapping div for fade-in-bottom (Image) -->
+    <div class="animate__animated animate__bounceInDown animate__slow	2s">
+      <div class="rounded-full overflow-hidden inline-block border-3 border-gray-300 shadow-lg fade-in-top"
+        style="margin-bottom: 30px;">
+        <img src="https://d11lwvehb4d05u.cloudfront.net/author.png" width="258" height="258" title="Author" alt="Author"
+          class="rounded-full">
+      </div>
     </div>
 
-    <h1 class="text-4xl font-extrabold author-name fade-in">
+    <!-- Author's Name with Upward Animation -->
+    <h1 class="text-4xl font-extrabold author-name fade-in-up">
       {{ .Site.Language.Params.Author.name | default .Site.Title }}
     </h1>
-    {{ with .Site.Language.Params.Author.headline }}
+
+    <!-- Container for Everything Below the Author's Name -->
+    <div class="fade-in-up">
+      {{ with .Site.Language.Params.Author.headline }}
       <h2 class="text-xl text-neutral-500 dark:text-neutral-400">
         {{ . | markdownify | emojify }}
       </h2>
-    {{ end }}
-    <div class="mt-1 text-2xl">
-      {{ partialCached "author-links.html" . }}
+      {{ end }}
+      <div class="mt-1 text-2xl">
+        {{ partialCached "author-links.html" . }}
+      </div>
+      <section class="prose dark:prose-invert">{{ .Content | emojify }}</section>
     </div>
+
   </header>
-  
-  <section class="prose dark:prose-invert">{{ .Content | emojify }}</section>
+
 </article>

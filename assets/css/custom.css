@@ -1,75 +1,71 @@
-<link rel="preconnect" href="https://rsms.me/">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
 
-
-:root {
-  font-family: 'Inter var', sans-serif;
-}
-
-@supports (font-variation-settings: normal) {
+<style>
   :root {
-    font-family: 'Inter var', sans-serif; 
+    font-family: 'Inter var', sans-serif;
   }
-}
 
+  @supports (font-variation-settings: normal) {
+    :root {
+      font-family: 'Inter var', sans-serif;
+    }
+  }
 
-html {
-  font-size: 13pt;  
-}
+  html {
+    font-size: 13pt;
+    font-family: 'Exo', sans-serif; /* Applied Exo font to the entire HTML */
+  }
 
-.author-name {
-  font-family: 'Inter', sans-serif;
-  font-size: 50px; /* Corrected with unit */
-  font-optical-sizing: auto;
-  font-weight: 800; /* Corrected to a valid value */  
-}
+  .author-name {
+    font-family: 'Inter', sans-serif;
+    font-size: 50px;
+    font-optical-sizing: auto;
+    font-weight: 800;
+  }
 
-/* CSS for the Subscription Form Input and Button */
+  /* CSS for the Subscription Form Input and Button */
+  .subscribe-container input[type="email"] {
+    border: 10px solid var(--color-dim);
+    border-radius: 7px 0 0 7px;
+    width: 50%;
+    padding: 0.5em 0.75em;
+    box-sizing: border-box;
+    transition: all 0.1s ease-in-out;
+  }
 
-.subscribe-container input[type="email"] {
-  border: 10px solid var(--color-dim); /* Increased border thickness for the email input */
-  border-radius: 7px 0 0 7px; /* Made border radius uniform */
-  width: 50%;
-  padding: 0.5em 0.75em;  
-  box-sizing: border-box;
-  transition: all 0.1s ease-in-out;  
-}
+  .subscribe-container input[type="email"]:hover,
+  .subscribe-container input[type="email"]:focus {
+    border: 3px solid #8b5cf6;
+  }
 
-.subscribe-container input[type="email"]:hover,
-.subscribe-container input[type="email"]:focus {
-  border: 3px solid #8b5cf6; /* Increased border thickness on hover/focus */  
-}
+  .subscribe-container input[type="submit"] {
+    border: 2px solid #808080;
+    background: #808080;
+    color: #00202e;
+    border-radius: 0 7px 7px 0;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+  }
 
-.subscribe-container input[type="submit"] {
-  border: 2px solid #808080; /* Increased border thickness for the submit button */
-  background: #808080; /* Button fill color */
-  color: #00202e; /* Text color for the button */  
-  border-radius: 0 7px 7px 0; /* Made border radius uniform */
-  padding: 0.5em 1em;
-  cursor: pointer; 
-  transition: all 0.1s ease-in-out;   
-}
+  .subscribe-container input[type="submit"]:hover {
+    background: #d4b9db;
+  }
 
-.subscribe-container input[type="submit"]:hover {
-  background: #d4b9db; /* Hover background color for the button */
-}
+  /* Specific classes for theme visibility */
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
 
-/* Specific classes for theme visibility */
-
-
-@keyframes fadeIn {
-  from { opacity: 0; }
-  to { opacity: 1; }
-}
-.fade-in {
-  animation: fadeIn 2s;
-}
-
-@keyframes fadeOut {
-  from { opacity: 1; }
-  to { opacity: 0; }
-}
-.fade-out {
-  animation: fadeOut 2s;
-}
-
+  .fade-in-up {
+    animation: fadeInUp 4s ease forwards;
+  }
+</style>
