@@ -1,7 +1,5 @@
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-<link rel="stylesheet" href="https://rsms.me/inter/inter.css">
-
 <style>
+
   :root {
     font-family: 'Inter var', sans-serif;
   }
@@ -68,4 +66,47 @@
   .fade-in-up {
     animation: fadeInUp 4s ease forwards;
   }
+
+
+
+
+  :root {
+    /* Neutral Colors */
+    --color-neutral-50: 247, 250, 252;
+    --color-neutral-100: 237, 242, 247;
+    --color-neutral-200: 226, 232, 240;
+    --color-neutral-300: 203, 213, 224;
+    --color-neutral-400: 160, 174, 192;
+    --color-neutral-500: 113, 128, 150;
+    --color-neutral-600: 74, 85, 104;
+    --color-neutral-700: 45, 55, 72;
+    --color-neutral-800: 26, 32, 44;
+    --color-neutral-900: 22, 21, 27; /* Updated to #16151b */
+
+    /* Primary Colors */
+    --color-primary-50: 237, 245, 255;
+    --color-primary-100: 219, 234, 254;
+    --color-primary-200: 191, 219, 254;
+    --color-primary-300: 147, 197, 253;
+    --color-primary-400: 96, 165, 250;
+    --color-primary-500: 59, 130, 246;
+    --color-primary-600: 37, 99, 235;
+    --color-primary-700: 29, 78, 216;
+    --color-primary-800: 30, 64, 175;
+    --color-primary-900: 33, 58, 158;
+
+    /* Secondary Colors */
+    --color-secondary-50: 253, 242, 248;
+    --color-secondary-100: 252, 231, 243;
+    --color-secondary-200: 251, 207, 232;
+    --color-secondary-300: 249, 168, 212;
+    --color-secondary-400: 244, 114, 182;
+    --color-secondary-500: 236, 72, 153;
+    --color-secondary-600: 219, 39, 119;
+    --color-secondary-700: 190, 24, 93;
+    --color-secondary-800: 157, 23, 77;
+    --color-secondary-900: 131, 24, 67;
+}
+
+
 </style>
