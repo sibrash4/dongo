@@ -10,13 +10,11 @@ showReadingTime: true
 
 {{< lead >}}
 This is my senior project based on RAG and generative AI.
-
 {{% /lead %}}
 
 {{< lead >}}
 Learn more about it [here](https://furman.sibrahim.io)
 {{% /lead %}}
-
 
 ## **Enhancing Financial Analysis Through Generative AI: A Deep Dive into Evolving Data Frameworks**
 
@@ -35,6 +33,7 @@ Our research primarily focuses on advanced transformer models like BERT, GPT, an
 ### **Data Analysis: Diving into 10-K and 10-Q Forms**
 
 Our paper emphasizes the analysis of primary data sources, particularly contrasting the Form 10-K with the 10-Q report. We delve into their characteristics, such as frequency and geographical scope. The challenge lies in processing the unstructured data in these filings, often laden with complex financial terminology and varying narrative structures.
+
 
 ### **Results and Pipeline: Accuracy and Efficiency in Financial Statements Analysis**
 

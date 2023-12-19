@@ -1,111 +1,138 @@
 <style>
 
+
+:root {
+  font-family: 'Inter var', sans-serif;  
+}
+
+@supports (font-variation-settings: normal) {
   :root {
-    font-family: 'Inter var', sans-serif;
+    font-family: 'Inter var', sans-serif; 
+  }
+}
+
+html {
+  font-size: 15pt;
+}
+
+.author-name {
+  font-family: 'Inter', sans-serif; 
+  font-size: 50px;
+  font-optical-sizing: auto;
+  font-weight: 800;  
+}
+
+p,
+div,
+li, 
+article {
+  font-family: 'Lusitana', serif; 
+}
+
+
+h1, 
+h2,
+h3,
+h4,
+h5,
+h6,
+nav a {
+  font-family: 'Inter', sans-serif; 
+}
+
+.author-name {
+  font-family: 'Inter', sans-serif;
+  font-size: 50px;
+  font-optical-sizing: auto;
+  font-weight: 800;
+}
+
+/* CSS for the Subscription Form Input and Button */
+.subscribe-container input[type="email"] {
+  border: 10px solid var(--color-dim);
+  border-radius: 7px 0 0 7px;
+  width: 50%;
+  padding: 0.5em 0.75em;
+  box-sizing: border-box;
+  transition: all 0.1s ease-in-out;
+}
+
+.subscribe-container input[type="email"]:hover,
+.subscribe-container input[type="email"]:focus {
+  border: 3px solid #8b5cf6;
+}
+
+.subscribe-container input[type="submit"] {
+  border: 2px solid #808080;
+  background: #808080;
+  color: #00202e;
+  border-radius: 0 7px 7px 0;
+  padding: 0.5em 1em;
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
+}
+
+.subscribe-container input[type="submit"]:hover {
+  background: #d4b9db;
+}
+
+/* Specific classes for theme visibility */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
   }
 
-  @supports (font-variation-settings: normal) {
-    :root {
-      font-family: 'Inter var', sans-serif;
-    }
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
+}
 
-  html {
-    font-size: 13pt;
-    font-family: 'Exo', sans-serif; /* Applied Exo font to the entire HTML */
-  }
-
-  .author-name {
-    font-family: 'Inter', sans-serif;
-    font-size: 50px;
-    font-optical-sizing: auto;
-    font-weight: 800;
-  }
-
-  /* CSS for the Subscription Form Input and Button */
-  .subscribe-container input[type="email"] {
-    border: 10px solid var(--color-dim);
-    border-radius: 7px 0 0 7px;
-    width: 50%;
-    padding: 0.5em 0.75em;
-    box-sizing: border-box;
-    transition: all 0.1s ease-in-out;
-  }
-
-  .subscribe-container input[type="email"]:hover,
-  .subscribe-container input[type="email"]:focus {
-    border: 3px solid #8b5cf6;
-  }
-
-  .subscribe-container input[type="submit"] {
-    border: 2px solid #808080;
-    background: #808080;
-    color: #00202e;
-    border-radius: 0 7px 7px 0;
-    padding: 0.5em 1em;
-    cursor: pointer;
-    transition: all 0.1s ease-in-out;
-  }
-
-  .subscribe-container input[type="submit"]:hover {
-    background: #d4b9db;
-  }
-
-  /* Specific classes for theme visibility */
-  @keyframes fadeInUp {
-    from {
-      opacity: 0;
-      transform: translateY(30px);
-    }
-    to {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  }
-
-  .fade-in-up {
-    animation: fadeInUp 4s ease forwards;
-  }
+.fade-in-up {
+  animation: fadeInUp 4s ease forwards;
+}
 
 
 
 
-  :root {
-    /* Neutral Colors */
-    --color-neutral-50: 247, 250, 252;
-    --color-neutral-100: 237, 242, 247;
-    --color-neutral-200: 226, 232, 240;
-    --color-neutral-300: 203, 213, 224;
-    --color-neutral-400: 160, 174, 192;
-    --color-neutral-500: 113, 128, 150;
-    --color-neutral-600: 74, 85, 104;
-    --color-neutral-700: 45, 55, 72;
-    --color-neutral-800: 26, 32, 44;
-    --color-neutral-900: 22, 21, 27; /* Updated to #16151b */
+:root {
+  /* Neutral Colors */
+  --color-neutral-50: 247, 250, 252;
+  --color-neutral-100: 237, 242, 247;
+  --color-neutral-200: 226, 232, 240;
+  --color-neutral-300: 203, 213, 224;
+  --color-neutral-400: 160, 174, 192;
+  --color-neutral-500: 113, 128, 150;
+  --color-neutral-600: 74, 85, 104;
+  --color-neutral-700: 45, 55, 72;
+  --color-neutral-800: 26, 32, 44;
+  --color-neutral-900: 22, 21, 27;
+  /* Updated to #16151b */
 
-    /* Primary Colors */
-    --color-primary-50: 237, 245, 255;
-    --color-primary-100: 219, 234, 254;
-    --color-primary-200: 191, 219, 254;
-    --color-primary-300: 147, 197, 253;
-    --color-primary-400: 96, 165, 250;
-    --color-primary-500: 59, 130, 246;
-    --color-primary-600: 37, 99, 235;
-    --color-primary-700: 29, 78, 216;
-    --color-primary-800: 30, 64, 175;
-    --color-primary-900: 33, 58, 158;
+  /* Primary Colors */
+  --color-primary-50: 237, 245, 255;
+  --color-primary-100: 219, 234, 254;
+  --color-primary-200: 191, 219, 254;
+  --color-primary-300: 147, 197, 253;
+  --color-primary-400: 96, 165, 250;
+  --color-primary-500: 59, 130, 246;
+  --color-primary-600: 37, 99, 235;
+  --color-primary-700: 29, 78, 216;
+  --color-primary-800: 30, 64, 175;
+  --color-primary-900: 33, 58, 158;
 
-    /* Secondary Colors */
-    --color-secondary-50: 253, 242, 248;
-    --color-secondary-100: 252, 231, 243;
-    --color-secondary-200: 251, 207, 232;
-    --color-secondary-300: 249, 168, 212;
-    --color-secondary-400: 244, 114, 182;
-    --color-secondary-500: 236, 72, 153;
-    --color-secondary-600: 219, 39, 119;
-    --color-secondary-700: 190, 24, 93;
-    --color-secondary-800: 157, 23, 77;
-    --color-secondary-900: 131, 24, 67;
+  /* Secondary Colors */
+  --color-secondary-50: 253, 242, 248;
+  --color-secondary-100: 252, 231, 243;
+  --color-secondary-200: 251, 207, 232;
+  --color-secondary-300: 249, 168, 212;
+  --color-secondary-400: 244, 114, 182;
+  --color-secondary-500: 236, 72, 153;
+  --color-secondary-600: 219, 39, 119;
+  --color-secondary-700: 190, 24, 93;
+  --color-secondary-800: 157, 23, 77;
+  --color-secondary-900: 131, 24, 67;
 }
 
 
