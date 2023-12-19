@@ -2,6 +2,7 @@
   "dependencies": {
     "@hotjar/browser": "^1.0.9",
     "@tailwindcss/typography": "^0.5.10",
-    "animate.css": "^4.1.1"
+    "animate.css": "^4.1.1",
+    "nvm": "^0.0.4"
   }
 }
