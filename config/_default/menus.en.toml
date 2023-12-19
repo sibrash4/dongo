@@ -12,38 +12,36 @@
 # https://cvbox.org/post/notion-avatar-color/
 
 [[main]]
-  name = "writings"
-  pageRef = "writings"
-  weight = 10
+name = "writings"
+pageRef = "writings"
+weight = 10
 
 [[main]]
-  name = "projects"
-  pageRef = "projects"
-  weight = 20
+name = "projects"
+pageRef = "projects"
+weight = 20
 
 [[main]]
-  name = "about me"
-  pageRef = "about"
-  weight = 35
+name = "about me"
+pageRef = "about"
+weight = 35
 
 
 [[main]]
-  name = "book notes"
-  pageRef = "booknotes"
-  weight = 30
+name = "book notes"
+pageRef = "booknotes"
+weight = 30
 
 #[[main]]
-  #identifier = "locale"
-  #weight = 100
-  #[main.params]
-   # action = "locale"
-    
+#identifier = "locale"
+#weight = 100
+#[main.params]
+# action = "locale"
+
 
 # -- Footer Menu --
 # The footer menu is displayed at the bottom of the page, just before
 # the copyright notice. Configure as per the main menu above.
-
-
 
 
 # [[footer]]
@@ -52,10 +50,18 @@
 #    weight = 20
 
 
-   [[footer]]
-   name = "website ack"
-   pageRef = "website"
-   weight = 30
+[[footer]]
+
+name = "website ack"
+pageRef = "website"
+weight = 30
+
+[[footer]]
+name = "privacy policy"
+pageRef = "privacypolicy"
+weight = 33
+
+
 
 
 #[[footer]]

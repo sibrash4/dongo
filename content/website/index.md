@@ -2,7 +2,7 @@
 title: "website ack"
 date: 2023-11-08
 description: “behind the site"
-layout: “page”
+layout: "single"
 showBreadcrumbs: false
 showDateUpdated: true
 showTableOfContents: true
