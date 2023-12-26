@@ -27,53 +27,33 @@ body::-webkit-scrollbar-thumb {
   
   }
 
-
-:root {
-  font-family: 'Inter var', sans-serif;  
-}
-
-@supports (font-variation-settings: normal) {
   :root {
-    font-family: 'Inter var', sans-serif; 
+    font-family: 'Open Sans', BlinkMacSystemFont, Segoe UI, Helvetica Neue, Arial, sans-serif;
   }
-}
-
-html {
-  font-size: 15pt;
-}
-
-.author-name {
-  font-family: 'Inter', sans-serif; 
-  font-size: 50px;
-  font-optical-sizing: auto;
-  font-weight: 800;  
-}
-
-p,
-div,
-li, 
-article {
-  font-family: 'Lusitana', serif; 
-}
-
-
-h1, 
-h2,
-h3,
-h4,
-h5,
-h6,
-nav a {
-  font-family: 'Inter', sans-serif; 
-}
-
-.author-name {
-  font-family: 'Inter', sans-serif;
-  font-size: 50px;
-  font-optical-sizing: auto;
-  font-weight: 800;
-}
-
+  
+  html {
+    font-size: 15pt;
+  }
+  
+  .author-name {
+    font-family: 'Playfair Display', serif;
+    font-size: 50px; /* Adjusted for better legibility */
+    font-weight: 700;
+  }
+  
+  p, div, li, article {
+    font-family: 'Open Sans', BlinkMacSystemFont, Segoe UI, Helvetica Neue, Arial, sans-serif;
+  }
+  
+  h1, h2, h3, h4, h5, h6, nav a {
+    font-family: 'Open Sans', BlinkMacSystemFont, Segoe UI, Helvetica Neue, Arial, sans-serif;
+  }
+  
+  /* For unique styling elements */
+  .special-element {
+    font-family: 'Merriweather', serif; /* or 'Noto Serif' */
+  }
+  
 /* CSS for the Subscription Form Input and Button */
 .subscribe-container input[type="email"] {
   border: 10px solid var(--color-dim);
@@ -161,6 +141,4 @@ nav a {
   --color-secondary-800: 157, 23, 77;
   --color-secondary-900: 131, 24, 67;
 }
-
-python3 -m pip install gpt-engineer
 </style>
