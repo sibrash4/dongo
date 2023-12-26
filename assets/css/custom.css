@@ -37,7 +37,7 @@ body::-webkit-scrollbar-thumb {
   
   .author-name {
     font-family: 'Playfair Display', serif;
-    font-size: 50px; /* Adjusted for better legibility */
+    font-size: 30px; /* Adjusted for better legibility */
     font-weight: 700;
   }
   
