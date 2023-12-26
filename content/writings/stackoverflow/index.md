@@ -7,7 +7,7 @@ tags: [reflection]
 pin: false
 showBreadcrumbs: true
 math: false
-mermaid: true
+layout: article
 image:
   path: /assets/img/stacks.png
   #alt: Responsive rendering of Chirpy theme on multiple devices.
