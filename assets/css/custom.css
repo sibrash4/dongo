@@ -45,8 +45,13 @@ body::-webkit-scrollbar-thumb {
     font-family: 'Open Sans', BlinkMacSystemFont, Segoe UI, Helvetica Neue, Arial, sans-serif;
   }
   
-  h1, h2, h3, h4, h5, h6, nav a {
+  h1, h2, h3, h4, h5, h6 {
     font-family: 'Open Sans', BlinkMacSystemFont, Segoe UI, Helvetica Neue, Arial, sans-serif;
+  }
+
+  nav a {
+    font-family: 'Open Sans', BlinkMacSystemFont, Segoe UI, Helvetica Neue, Arial, sans-serif;
+    font-size: 13px; /* Adjust this value to your preference */
   }
   
   /* For unique styling elements */
