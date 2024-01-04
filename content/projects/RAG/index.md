@@ -7,7 +7,7 @@ showReadingTime: true
 layout: article
 ---
 
-{{< figure src="<https://d11lwvehb4d05u.cloudfront.net/cover.jpg>" >}}
+{{< figure src="https://d11lwvehb4d05u.cloudfront.net/cover.jpg" >}}
 
 {{< lead >}} This is my senior project based on RAG and generative AI. {{% /lead %}}
 
