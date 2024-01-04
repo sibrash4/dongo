@@ -5,21 +5,20 @@ type: "about"
 date: 2023-12-05
 showEdit: false
 showSummary: false
-showTableOfContents: false
+showTableOfContents: true
 showBreadcrumbs: false
 ---
 
 {{< figure src="https://d11lwvehb4d05u.cloudfront.net/Golden hour suspension bridge.jpeg" >}}
 
 ## About Me
+Hello! I'm Shaukat Ibrahim, currently an Investment Banking Analyst Intern with a deep interest in finance and banking. My career is complemented by my enthusiasm for networking and mentoring, where I enjoy building valuable connections.
 
-Hello! My name is Shaukat Ibrahim, a dedicated Investment Banking Analyst Intern with a passion for finance and banking. Outside of my professional life, I'm an enthusiastic networker and mentor. I'm also a huge fan of the outdoors and love to hike and camp.
+Originally from Bangalore, India, I grew up in a dynamic environment where technology, business, and culture intersected. This background shaped my understanding of business operations and fueled my aspiration to one day run my own company.
 
-I grew up in india, bangalore, an amzing city for thoise of you who might not have been there before! its very d
+In my downtime, I relish exploring the outdoors, engaging in activities like hiking and camping, and absolutely love coffee.
 
-Looking forward, I am eager to progress in the field of investment banking, specifically aiming for roles in restructuring or M&A advisory.
-
-A personal passion of mine is fostering the growth of companies. I am excited about the prospect of eventually starting my own business.
+Professionally, I'm excited about progressing in investment banking, particularly in restructuring and M&A advisory. I am driven by the prospect of fostering company growth and the dream of starting my own business in the future
 
 ### Education
 
@@ -29,7 +28,7 @@ I am a student at [￼Furman University￼][1], working towards a Bachelor of Sc
 
 ## Contact
 
-I'm always open to new conversations and learning about people. You can reach me at [hello@sibrahim.co][2], or connect with me on [LinkedIn][3].
+I'm always open to new conversations and learning about people. You can reach me at [shaukat@sibrahim.io][2], or connect with me on [LinkedIn][3].
 
 Whether it's for a friendly chat or professional networking, I'm all ears and would love to hear from you! Feel free to book me through the link.
 
@@ -41,5 +40,5 @@ Whether it's for a friendly chat or professional networking, I'm all ears and wo
 {{< subscribeform >}}
 
 [1]:	www.furman.edu
-[2]:	mailto:hello@sibrahim.co
+[2]:	mailto:shaukat@sibrahim.io "shaukat@sibrahim.io"
 [3]:	https://linkedin.com/in/shaukatibrahim
