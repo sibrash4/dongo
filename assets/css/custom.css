@@ -45,14 +45,25 @@ body::-webkit-scrollbar-thumb {
     font-family: 'Open Sans', BlinkMacSystemFont, Segoe UI, Helvetica Neue, Arial, sans-serif;
   }
   
-  h1, h2, h3, h4, h5, h6 {
+ h2, h3, h4, h5, h6 {
     font-family: 'Open Sans', BlinkMacSystemFont, Segoe UI, Helvetica Neue, Arial, sans-serif;
+  }
+
+  h1 {
+    font-family: 'Open Sans', BlinkMacSystemFont, Segoe UI, Helvetica Neue, Arial, sans-serif;
+    font-size: 1.5em; /* Adjust this value to your preference */
+  }
+
+  .footer {
+    font-family: 'Open Sans', BlinkMacSystemFont, Segoe UI, Helvetica Neue, Arial, sans-serif;
+    font-size: 10px; /* Adjust this value to your preference */
   }
 
   nav a {
     font-family: 'Open Sans', BlinkMacSystemFont, Segoe UI, Helvetica Neue, Arial, sans-serif;
     font-size: 23px; /* Adjust this value to your preference */
   }
+
   
   /* For unique styling elements */
   .special-element {

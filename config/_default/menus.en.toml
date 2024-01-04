@@ -61,6 +61,13 @@ name = "privacy policy"
 pageRef = "privacypolicy"
 weight = 33
 
+[[footer]]
+name = "my resume"
+pageURL = "https://cv.sibrahim.io"
+weight = 35
+
+[[footer]]
+
 
 
 
