@@ -12,13 +12,15 @@ showBreadcrumbs: false
 {{< figure src="https://d11lwvehb4d05u.cloudfront.net/Golden hour suspension bridge.jpeg" >}}
 
 ## About Me
-Hello! I'm Shaukat Ibrahim, currently an Investment Banking Analyst Intern with a deep interest in finance and banking. My career is complemented by my enthusiasm for networking and mentoring, where I enjoy building valuable connections.
+Hello! I'm Shaukat Ibrahim, currently an Investment Banking Analyst with a deep interest in finance and banking. My career is complemented by my enthusiasm for networking and mentoring, where I enjoy building valuable connections.
 
 Originally from Bangalore, India, I grew up in a dynamic environment where technology, business, and culture intersected. This background shaped my understanding of business operations and fueled my aspiration to one day run my own company.
 
 In my downtime, I relish exploring the outdoors, engaging in activities like hiking and camping, and absolutely love coffee.
 
-Professionally, I'm excited about progressing in investment banking, particularly in restructuring and M&A advisory. I am driven by the prospect of fostering company growth and the dream of starting my own business in the future
+Professionally, I'm excited about progressing in investment banking, particularly in restructuring and M&A advisory. I am driven by the prospect of fostering company growth and the dream of starting my own business in the future.
+
+This website is a fun way to document my thoughts and experiences on random things related to career, finance, and life of a 20 something. I hope you enjoy reading it as much as I enjoy writing it!
 
 ### Education
 
@@ -32,9 +34,7 @@ I'm always open to new conversations and learning about people. You can reach me
 
 Whether it's for a friendly chat or professional networking, I'm all ears and would love to hear from you! Feel free to book me through the link.
 
-{{< figure src="https://d11lwvehb4d05u.cloudfront.net/cover.jpg" title="An elephant at sunset" >}}
-
-
+{{< figure src="https://d11lwvehb4d05u.cloudfront.net/Tropical+Architecture+Interior.jpeg" title="An elephant at sunset" >}}
 
 {{< cal >}}
 {{< subscribeform >}}
