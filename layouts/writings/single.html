@@ -1,0 +1,47 @@
+{{ define "main" }}
+
+<article class="article">
+
+  <header class="article-header">
+    <h1>{{ .Title }}</h1>
+    
+    {{ with .Params.authors }}
+      <div class="article-authors">
+        {{ range . }}
+          <span>{{ . }}</span>
+        {{ end }}
+      </div>
+    {{ end }}
+
+    {{ with .PublishDate }}
+      <time datetime="{{ . }}">{{ .Format "January 2, 2006" }}</time>
+    {{ end }}
+
+  </header>
+
+  {{ with .Params.hero }}
+    <section class="article-hero">
+      {{ with .video_url }}
+        <video src="{{ . }}"></video>
+      {{ end }}
+
+      <h2 class="article-header">{{ .title }}</h2>
+
+      {{ with .description }}
+        <p>{{ . }}</p>
+      {{ end }}
+
+    </section>
+  {{ end }}
+
+  <section class="article-content">
+    {{ .Content }}
+  </section>
+  
+  {{ with .Params.image }}
+    <img src="{{ . }}">
+  {{ end }}
+
+</article>
+
+{{ end }}

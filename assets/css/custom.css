@@ -1,19 +1,15 @@
-
-
 /* CSS for the scrollbar */
 
-
 body {
-  --sb-track-color: #232E33;
-  --sb-thumb-color: #6BAF8D;
+  --sb-track-color: #232e33;
+  --sb-thumb-color: #6baf8d;
   --sb-size: 10px;
 
-  scrollbar-color: var(--sb-thumb-color) 
-                   var(--sb-track-color);
+  scrollbar-color: var(--sb-thumb-color) var(--sb-track-color);
 }
 
 body::-webkit-scrollbar {
-  width: var(--sb-size) 
+  width: var(--sb-size);
 }
 
 body::-webkit-scrollbar-track {
@@ -24,52 +20,63 @@ body::-webkit-scrollbar-track {
 body::-webkit-scrollbar-thumb {
   background: var(--sb-thumb-color);
   border-radius: 10px;
-  
-  }
+}
 
-  :root {
-    font-family: 'Open Sans', BlinkMacSystemFont, Segoe UI, Helvetica Neue, Arial, sans-serif;
-  }
-  
-  html {
-    font-size: 13pt;
-  }
-  
-  .author-name {
-    font-family: 'Playfair Display', serif;
-    font-size: 30px; /* Adjusted for better legibility */
-    font-weight: 700;
-  }
-  
-  p, div, li, article {
-    font-family: 'Open Sans', BlinkMacSystemFont, Segoe UI, Helvetica Neue, Arial, sans-serif;
-  }
-  
- h2, h3, h4, h5, h6 {
-    font-family: 'Open Sans', BlinkMacSystemFont, Segoe UI, Helvetica Neue, Arial, sans-serif;
-  }
+:root {
+  font-family: "Open Sans", BlinkMacSystemFont, Segoe UI, Helvetica Neue, Arial,
+    sans-serif;
+}
 
-  h1 {
-    font-family: 'Open Sans', BlinkMacSystemFont, Segoe UI, Helvetica Neue, Arial, sans-serif;
-    font-size: 1.5em; /* Adjust this value to your preference */
-  }
+html {
+  font-size: 13pt;
+}
 
-  .footer {
-    font-family: 'Open Sans', BlinkMacSystemFont, Segoe UI, Helvetica Neue, Arial, sans-serif;
-    font-size: 10px; /* Adjust this value to your preference */
-  }
+.author-name {
+  font-family: "Playfair Display", serif;
+  font-size: 30px; /* Adjusted for better legibility */
+  font-weight: 700;
+}
 
-  nav a {
-    font-family: 'Open Sans', BlinkMacSystemFont, Segoe UI, Helvetica Neue, Arial, sans-serif;
-    font-size: 23px; /* Adjust this value to your preference */
-  }
+p,
+div,
+li,
+article {
+  font-family: "Open Sans", BlinkMacSystemFont, Segoe UI, Helvetica Neue, Arial,
+    sans-serif;
+}
 
-  
-  /* For unique styling elements */
-  .special-element {
-    font-family: 'Merriweather', serif; /* or 'Noto Serif' */
-  }
-  
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Open Sans", BlinkMacSystemFont, Segoe UI, Helvetica Neue, Arial,
+    sans-serif;
+}
+
+h1 {
+  font-family: "Open Sans", BlinkMacSystemFont, Segoe UI, Helvetica Neue, Arial,
+    sans-serif;
+  font-size: 1.5em; /* Adjust this value to your preference */
+}
+
+.footer {
+  font-family: "Open Sans", BlinkMacSystemFont, Segoe UI, Helvetica Neue, Arial,
+    sans-serif;
+  font-size: 10px; /* Adjust this value to your preference */
+}
+
+nav {
+  font-family: "Open Sans", BlinkMacSystemFont, Segoe UI, Helvetica Neue, Arial,
+    sans-serif;
+  font-size: 23px; /* Adjust this value to your preference */
+}
+
+/* For unique styling elements */
+.special-element {
+  font-family: "Merriweather", serif; /* or 'Noto Serif' */
+}
+
 /* CSS for the Subscription Form Input and Button */
 .subscribe-container input[type="email"] {
   border: 10px solid var(--color-dim);
@@ -116,9 +123,6 @@ body::-webkit-scrollbar-thumb {
   animation: fadeInUp 4s ease forwards;
 }
 
-
-
-
 :root {
   /* Neutral Colors */
   --color-neutral-50: 247, 250, 252;
@@ -156,4 +160,83 @@ body::-webkit-scrollbar-thumb {
   --color-secondary-700: 190, 24, 93;
   --color-secondary-800: 157, 23, 77;
   --color-secondary-900: 131, 24, 67;
+}
+
+
+/* Base styles for the article */
+.article {
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: system-ui, sans-serif;
+}
+
+/* Styles for the article header */
+.article-header {
+  border-bottom: 1px solid #ddd; /* Border color will be set based on theme */
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+}
+
+.article-header h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0 0 10px;
+}
+
+.article-header time, .article-authors {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 10px;
+}
+
+/* Styles for the article content */
+.article-content {
+  position: relative;
+  padding: 20px 30px;
+}
+
+/* Consistent heading styles within the article content */
+.article-content h1, .article-content h2, .article-content h3,
+.article-content h4, .article-content h5, .article-content h6 {
+  font-size: 1.5em;
+  margin-top: 0.5em;
+  margin-bottom: 1em;
+}
+
+.article-content p {
+  margin-bottom: 1em;
+}
+
+/* Vertical lines in the article content */
+.article-content::before, .article-content::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  background-color: var(--line-color); /* Color changes based on theme */
+}
+
+.article-content::before {
+  left: 0;
+}
+
+.article-content::after {
+  right: 0;
+}
+
+/* Theme-based color adjustments */
+
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --line-color: #fff; /* White for dark mode */
+    --header-border-color: #333; /* Dark mode border color */
+    /* ... other variables for dark mode ... */
+  }
+}
+
+/* Applying theme-based color variables */
+.article-header {
+  border-bottom-color: var(--header-border-color);
 }
