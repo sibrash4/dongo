@@ -6,7 +6,7 @@ layout: “page”
 showBreadcrumbs: true
 showDateUpdated: true
 showTableOfContents: true
-showEdit: false
+showEdit: true
 
 ---
 
