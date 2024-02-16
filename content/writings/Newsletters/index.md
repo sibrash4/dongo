@@ -7,6 +7,7 @@ showBreadcrumbs: true
 showDateUpdated: true
 showTableOfContents: true
 showEdit: true
+draft: true
 
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: "Shaukat`s Notes on 2023"
 date: 2023-11-20
+draft: true
 ---
 
 # Notes on 2023
