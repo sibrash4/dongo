@@ -6,7 +6,7 @@ list.groupByYear: false
 showEdit: false
 showSummary: false
 showTableOfContents: false
-draft: true
+draft: false
 ---
 
 {{< figure src="https://d11lwvehb4d05u.cloudfront.net/Mediterranean Seaside Village.jpeg" >}}

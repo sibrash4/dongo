@@ -6,7 +6,7 @@ list.groupByYear: true
 showEdit: false
 showSummary: true
 showTableOfContents: true
-draft: true
+draft: false
 
 ---
 {{< figure src="https://d11lwvehb4d05u.cloudfront.net/123475.png" >}}
