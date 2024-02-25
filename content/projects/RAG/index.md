@@ -4,7 +4,7 @@ date: 2023-12-31
 summary: This is my senior project based on RAG and generative AI
 showBreadcrumbs: true
 showReadingTime: true
-layout: article-layout
+draft: true
 ---
 
 {{< figure src="https://d11lwvehb4d05u.cloudfront.net/cover.jpg" >}}
