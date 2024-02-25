@@ -6,7 +6,7 @@ date: 2023-12-05
 showEdit: false
 showSummary: false
 showTableOfContents: true
-showBreadcrumbs: false
+showBreadcrumbs: true
 ---
 
 {{< figure src="https://d11lwvehb4d05u.cloudfront.net/Golden hour suspension bridge.jpeg" >}}

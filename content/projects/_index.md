@@ -6,11 +6,11 @@ list.groupByYear: true
 showEdit: false
 showSummary: true
 showTableOfContents: true
+showbreadcrumbs: true
 draft: false
 
 ---
 {{< figure src="https://d11lwvehb4d05u.cloudfront.net/123475.png" >}}
-
 
 {{< lead >}}
 Here are some random awful stuff that I managed to get them to work
