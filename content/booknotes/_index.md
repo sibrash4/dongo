@@ -9,7 +9,7 @@ showTableOfContents: false
 draft: false
 ---
 
-{{< figure src="https://d11lwvehb4d05u.cloudfront.net/Mediterranean Seaside Village.jpeg" >}}
+{{< figure srcoki="https://d11lwvehb4d05u.cloudfront.net/Mediterranean Seaside Village.jpeg" >}}
 
 {{< lead >}}
 
