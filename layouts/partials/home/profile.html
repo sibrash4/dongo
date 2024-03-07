@@ -3,6 +3,8 @@
 
   <header class="mb-5 flex flex-col items-center">
 
+    {{ partial "sunrise.html" . }}
+
     <!-- Wrapping div for fade-in-bottom (Image) -->
     <div class="animate__animated animate__bounceInDown animate__slow	2s">
       <div class="rounded-full overflow-hidden inline-block border-3 border-gray-300 shadow-lg fade-in-top"
@@ -16,6 +18,7 @@
     <h1 class="text-4xl font-extrabold author-name fade-in-up">
       {{ .Site.Language.Params.Author.name | default .Site.Title }}
     </h1>
+
 
     <!-- Container for Everything Below the Author's Name -->
     <div class="fade-in-up">
