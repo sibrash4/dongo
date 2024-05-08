@@ -1,16 +1,16 @@
-# -- Main Menu --
+# -- Main Menu -- 
 # The main menu is displayed in the header at the top of the page.
 # Acceptable parameters are name, pageRef, page, url, title, weight.
 #
 # The simplest menu configuration is to provide:
-#   name = The name to be displayed for this menu link
-#   pageRef = The identifier of the page or section to link to
+# name = The name to be displayed for this menu link
+# pageRef = The identifier of the page or section to link to
 #
 # By default the menu is ordered alphabetically. This can be
 # overridden by providing a weight value. The menu will then be
 # ordered by weight from lowest to highest.
+#
 # https://cvbox.org/post/notion-avatar-color/
-
 [[main]]
 name = "writings"
 pageRef = "writings"
@@ -26,7 +26,6 @@ name = "about me"
 pageRef = "about"
 weight = 35
 
-
 [[main]]
 name = "book notes"
 pageRef = "booknotes"
@@ -38,20 +37,16 @@ weight = 30
 #[main.params]
 # action = "locale"
 
-
 # -- Footer Menu --
 # The footer menu is displayed at the bottom of the page, just before
 # the copyright notice. Configure as per the main menu above.
-
-
+#
 # [[footer]]
-#    name = "archive"
-#    pageRef = "archive"
-#    weight = 20
-
+# name = "archive"
+# pageRef = "archive"
+# weight = 20
 
 [[footer]]
-
 name = "website ack"
 pageRef = "website"
 weight = 30
@@ -65,13 +60,3 @@ weight = 33
 name = "my calender"
 pageURL = "https://cal.com/shaukat"
 weight = 35
-
-[[footer]]
-
-
-
-
-#[[footer]]
-#   name = "home"
-#   url = "profile"
-#   weight = 40
