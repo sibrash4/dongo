@@ -48,7 +48,7 @@ weight = 30
 
 [[footer]]
 name = "website ack"
-pageRef = "website"
+pageRef = "website-ack"
 weight = 30
 
 [[footer]]
