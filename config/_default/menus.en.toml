@@ -57,4 +57,7 @@ pageRef = "privacypolicy"
 weight = 33
 
 [[footer]]
-{{ "<a href=\"https://cal.com/shaukat\" rel=\"noopener noreferrer\" target=\"_blank\">my calendar</a>" | safeHTML }}
+name = "my calendar"
+url = "https://cal.com/shaukat"
+weight = 35
+
