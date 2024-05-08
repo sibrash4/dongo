@@ -57,6 +57,4 @@ pageRef = "privacypolicy"
 weight = 33
 
 [[footer]]
-name = "my calender"
-pageURL = "https://cal.com/shaukat"
-weight = 35
+<a href="{{ "https://cal.com/shaukat" | safeURL }}">my calendar</a>
